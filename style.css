@@ -1,0 +1,48 @@
+.keyboard_hotspot {
+    position: absolute;
+    background-color: #d3d3d3;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 39px; /* Adjust for equal height keys */
+    cursor: pointer;
+}
+
+.keyboard_hotspot.pressed {
+    background-color: #7fffd4; /* Light green color for pressed keys */
+}
+
+.keyboard_hotspot.pressed.active {
+    background-color: #888; /* Light green color for pressed keys */
+}
+
+
+.keyboard_hotspot.active {
+    background-color: #888; /* Light green color for pressed keys */
+}
+
+.keyboard_hotspot.lh80 {
+    line-height: 80px; /* Adjust for keys with double height */
+}
+
+#key_bg {
+    font-size: 14px;
+    position: relative;
+    width: 950px;
+    height: 300px;
+    background-color: #f0f0f0;
+    margin: 50px auto;
+    padding: 20px 0 0 20px;
+}
+
+#key_row {
+    position: relative;
+}
+
+#key-pressed {
+    margin: 10px auto;
+    height: 210px;
+    width: 950px;
+    border: #000 solid 1px;
+    padding: 10px;
+}
+
